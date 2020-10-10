@@ -1,0 +1,12 @@
+@startuml
+skinparam class {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+class "Мастер" as P {
+ Машинка 
+ Рисовать (Краска, Заказ) -> Татуировка
+}
+hide circle
+@enduml
