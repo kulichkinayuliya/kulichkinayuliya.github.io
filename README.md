@@ -9,7 +9,9 @@
 Полное предложение: Мастер должен нарисовать татуировку в соответствии с заказом, используя машинку и краску.
 
 Диаграмма классов:
-![none]()
+
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab1/ClassDaigram.png)
 
 Диаграмма прецедентов:
+
 ![none]()
