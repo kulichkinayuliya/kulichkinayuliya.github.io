@@ -14,4 +14,4 @@
 
 Диаграмма прецедентов:
 
-![none]()
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab1/PrDiagram.png)
