@@ -20,10 +20,10 @@
 
 На диаграмме изображен процесс рисования татуировки.
 
-Диаграмма IDF0:
+## Диаграмма IDF0:
 ![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF01.png)
 
-Подуровень IDF0 диаграммы:
+## Подуровень IDF0 диаграммы:
 ![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF02.png)
 
 ## А1
@@ -37,4 +37,7 @@
 ## А3
 
 Тату-мастер получает на вход заказ, тату-машинку и краску. На выходе получается татуировка.
+
+## DFD диаграмма:
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/dfd.png)
 
