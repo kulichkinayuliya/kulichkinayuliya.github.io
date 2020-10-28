@@ -21,14 +21,14 @@
 На диаграмме изображен процесс рисования татуировки.
 
 ## Диаграмма IDF0:
-![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF01.png)
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF00.png)
 
 ## Подуровень IDF0 диаграммы:
-![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF02.png)
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF001.png)
 
 ## А1
 
-Тату-мастер получает на вход эскиз клиента и заказ. На выходе получается записанный в базу клиент.
+Администратор получает на вход эскиз клиента и заказ. На выходе получается записанный в базу клиент.
 
 ## А2
 
@@ -39,9 +39,13 @@
 Тату-мастер получает на вход заказ, тату-машинку и краску. На выходе получается татуировка.
 
 ## DFD диаграмма:
-![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/dfd.png)
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/dfd1.png)
 
-Тату-мастер получает обращение клиента, предоставляет ему список услуг, и, при положительном выборе клиента, добавляет его в базу данных.
+Администратор получает обращение клиента, предоставляет ему список услуг, и, при положительном выборе клиента, добавляет его в базу данных.
 
 ## Диаграмма прецедентов:
-![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/PrmDiag.png)
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/diag.png)
+
+## Лабораторная работа №
+
+## Диаграмма последовательности
