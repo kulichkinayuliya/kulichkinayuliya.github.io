@@ -41,3 +41,7 @@
 ## DFD диаграмма:
 ![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/dfd.png)
 
+Тату-мастер получает обращение клиента, предоставляет ему список услуг, и, при положительном выборе клиента, добавляет его в базу данных.
+
+## Диаграмма прецедентов:
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/PrmDiag.png)
