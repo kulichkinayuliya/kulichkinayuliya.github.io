@@ -21,6 +21,6 @@
 На диаграмме изображен процесс рисования татуировки.
 
 Диаграмма IDF0:
-![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF0.png)
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF01.png)
 
 Подуровень IDF0 диаграммы:
