@@ -15,3 +15,12 @@
 Диаграмма прецедентов:
 
 ![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab1/PrnDiagram.png)
+
+## Лабораторная работа №2
+
+На диаграмме изображен процесс рисования татуировки.
+
+Диаграмма IDF0:
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/IDF0.png)
+
+Подуровень IDF0 диаграммы:
