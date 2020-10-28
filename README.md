@@ -46,6 +46,18 @@
 ## Диаграмма прецедентов:
 ![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab2/diag.png)
 
-## Лабораторная работа №
+## Лабораторная работа №3
 
 ## Диаграмма последовательности
+[Текст](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/diagposl.txt) и [Рисунок](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/diagposl.png) диаграммы последовательности.
+
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/diagposl.png)
+
+Администратор обращается к базе данных через веб приложение для добавление нового заказа ( с ФИО, описанием, номером телефона), а тату-мастер через интерфейс веб-приложения на своей строне принимает заказ.
+
+## ER-диаграмма
+[Текст](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/er.txt) и [Рисунок](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/er.png) диаграммы классов.
+
+![none](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/blob/master/lab3/er.png)
+
+Заказ - это запись в базе данных, которая относится к информационным потокам, и состоит из: ФИО, описания и номера телефона.
