@@ -9,3 +9,5 @@
 ## [Отчет](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/wiki/Лабораторные-работы-4,-5,-6) по лабораторным работам 4-6
 
 ## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam01-6) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam15-1)
+
+## [Курсовой проект](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/wiki/Курсовой-проект)
