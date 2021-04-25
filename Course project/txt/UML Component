@@ -1,0 +1,15 @@
+@startuml
+skinparam monochrome true
+
+component [БД выбора тем ВКР] as DB
+component [Информационная система] as IS
+component [Устройства отображения информации] as HMD
+
+() "LAN" as L
+() "Файловая система ПК" as File
+
+DB - File
+File - IS
+IS - L
+L - HMD
+@enduml
