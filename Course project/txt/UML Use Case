@@ -1,0 +1,26 @@
+@startuml
+skinparam monochrome true
+left to right direction
+
+actor S0 as "Информационная система"
+actor S1 as "Кафедра"
+
+actor O0 as "Заказчик"
+actor D0 as "Исполнитель"
+actor O1 as "Работники кафедры"
+actor O2 as "Руководитель"
+actor D1 as "Разработчики"
+actor D2 as "Тестировщики"
+
+usecase UC1 as "Разработать базу данных"
+
+S1 <— S0
+S0 <— (UC1)
+(UC1) —> O0
+(UC1) —> D0
+O0 —> O1
+O0 —> O2
+D0 —> D1
+D0 —> D2
+
+@enduml
