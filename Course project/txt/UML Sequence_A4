@@ -1,0 +1,29 @@
+@startuml
+skinparam monochrome true
+
+actor Руководитель as PO
+actor Тестировщик as QA
+participant "Интерфейс БД" as int
+database "Отчет" as BD
+
+PO -> QA : Приемка задачи
+activate PO
+activate QA
+QA -> int : Протестировать
+activate int
+int -> QA : Результаты тестирования
+deactivate int
+QA -> BD : Результаты тестирования
+activate BD
+BD -> QA : Протокол тестирования
+deactivate BD
+QA -> PO : Протокол тестирования
+deactivate QA
+PO -> BD : Результаты выполнения задачи
+activate BD
+BD -> PO : Содержание отчета
+deactivate BD
+PO -> PO : Закрыть задачу
+deactivate PO
+
+@enduml
