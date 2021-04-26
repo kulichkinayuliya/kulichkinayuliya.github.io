@@ -1,0 +1,47 @@
+@startuml
+skinparam monochrome true
+
+actor Разработчик as dev
+participant "Интерфейс БД" as int
+database "База данных" as bd
+
+dev -> int : Создание архитектуры БД
+activate int
+
+loop
+int -> bd : Создать таблицу
+activate bd
+bd -> int : Созданная таблица
+deactivate bd
+end
+
+loop
+int -> bd : Создать индекс
+activate bd
+bd -> int : Созданный индекс
+deactivate bd
+end
+
+loop
+int -> bd : Создать процедуру
+activate bd
+bd -> int : Созданная процедура
+deactivate bd
+end
+
+loop
+int -> bd : Создать функция
+activate bd
+bd -> int : Созданная функция
+deactivate bd
+end
+
+int -> bd : Настроить синхронность
+activate bd
+bd -> int : Настроить синхронность
+deactivate bd
+
+int -> dev : Созданная архитектура БД
+deactivate int
+
+@enduml
