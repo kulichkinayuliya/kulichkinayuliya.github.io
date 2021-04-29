@@ -1,0 +1,33 @@
+@startuml
+skinparam monochrome true
+
+actor Студент as dev
+participant "Интерфейс БД" as int
+database "База данных" as bd
+
+dev -> int : Определить цель
+activate int
+int -> bd : Цель
+activate bd
+dev -> int : Определить объект
+int -> bd : Объект
+dev -> int : Определить предмет
+int -> bd : Предмет
+
+loop
+int -> bd : Определить метод
+bd -> int : Записанный метод
+end
+
+loop
+int -> bd : Определить задачу
+bd -> int : Записанная задача
+end
+
+deactivate bd
+bd -> int : Записанное описание
+
+deactivate int
+int -> dev : Составленное описание
+
+@enduml
