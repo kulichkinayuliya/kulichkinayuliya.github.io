@@ -2,9 +2,8 @@
 skinparam monochrome true
 left to right direction
 
-actor S0 as "Кафедра"
-actor S1 as "Информационная система"
-actor S2 as "База данных"
+actor S0 as "Информационная система"
+actor S1 as "Модуль работы с БД"
 
 actor O0 as "Работники кафедры"
 actor D0 as "Исполнители задания на ВКР"
@@ -14,13 +13,12 @@ actor D1 as "Студент"
 
 usecase UC1 as "Назначение тем ВКР"
 
-S1 <— S0
-S2 <— S0
-S0 <— (UC1)
-(UC1) —> O0
-(UC1) —> D0
-O0 —> O1
-O0 —> O2
-D0 —> D1
+S1 <|— S0
+S0 — (UC1)
+(UC1) — O0
+(UC1) — D0
+O0 —|> O1
+O0 —|> O2
+D0 —|> D1
 
 @enduml
