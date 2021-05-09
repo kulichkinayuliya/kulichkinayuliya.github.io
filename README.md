@@ -10,4 +10,8 @@
 
 ## Рефераты: [разработанный](https://github.com/stankin/design-part-1/wiki/exam01-6) и [проверенный](https://github.com/stankin/design-part-1/wiki/exam15-1)
 
+# 2 семестр
+
 ## [Курсовой проект](https://github.com/kulichkinayuliya/kulichkinayuliya.github.io/wiki/Курсовой-проект)
+
+## Рефераты: [разработанный](https://github.com/stankin/design-part-2/wiki/exam03-3) и [проверенный](https://github.com/stankin/design-part-2/wiki/exam02-6)
